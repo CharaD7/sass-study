@@ -10,3 +10,12 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+.card {
+  background: $main-color;
+  max-width: 280px;
+  padding: 20px;
+  line-height: 24px;
+  margin: 4rem;
+  position: relative;
+}
