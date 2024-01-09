@@ -1,4 +1,5 @@
 $main-color: #c8deff;
+$bg-image-center: no-repeat center/cover;
 
 body {
   background: linear-gradient(#a5aae9cc, #8c9af6);
@@ -19,3 +20,29 @@ body {
   margin: 4rem;
   position: relative;
 }
+
+.img {
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+  border: 5px solid white;
+  position: absolute;
+  right: -30px;
+  bottom: 100px;
+}
+
+  .img-one {
+    background: url("../assets/images/one.jpg") $bg-image-center;
+  }
+
+  .img-two {
+    background: url("../assets/images/two.jpg") $bg-image-center;
+  }
+
+  .img-three {
+    background: url("../assets/images/three.jpg") $bg-image-center;
+  }
+
+  .img-four {
+    background: url("../assets/images/four.jpg") $bg-image-center;
+  }
