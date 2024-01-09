@@ -1,5 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
+
 $main-color: #c8deff;
 $bg-image-center: no-repeat center/cover;
+$main-font: "Roboto", sans-serif;
 
 body {
   background: linear-gradient(#a5aae9cc, #8c9af6);
@@ -10,6 +13,7 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  font-family: $main-font;
 }
 
 .card {
