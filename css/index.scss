@@ -5,7 +5,7 @@ $bg-image-center: no-repeat center/cover;
 $main-font: "Roboto", sans-serif;
 
 body {
-  background: linear-gradient(#a5aae9cc, #8c9af6);
+  background: linear-gradient(#a5aae9cc, #8c9af6) no-repeat;
 }
 
 .container {
