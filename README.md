@@ -1,3 +1,3 @@
-# Variables
+# Nesting
 
-🖐️ This branch covers the application of **SASS** variables
+🖐️ This branch covers nesting in **SASS**
