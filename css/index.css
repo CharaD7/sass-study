@@ -3,47 +3,20 @@ body {
   background: linear-gradient(rgba(165, 170, 233, 0.8), #8c9af6) no-repeat;
 }
 
-.container {
+header {
+  height: 50vh;
+  background: crimson;
+}
+header nav {
+  border: 5px solid teal;
+}
+header nav ul {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  font-family: "Roboto", sans-serif;
 }
-
-.card {
-  background: #c8deff;
-  max-width: 280px;
-  padding: 20px;
-  line-height: 24px;
-  margin: 4rem;
-  position: relative;
-}
-
-.img {
-  width: 70px;
-  height: 70px;
-  border-radius: 100%;
-  border: 5px solid white;
-  position: absolute;
-  right: -30px;
-  bottom: 100px;
-}
-
-.img-one {
-  background: url("../assets/images/one.jpg") no-repeat center/cover;
-}
-
-.img-two {
-  background: url("../assets/images/two.jpg") no-repeat center/cover;
-}
-
-.img-three {
-  background: url("../assets/images/three.jpg") no-repeat center/cover;
-}
-
-.img-four {
-  background: url("../assets/images/four.jpg") no-repeat center/cover;
+header nav ul li {
+  list-style-type: none;
+  padding: 15px;
+  border: 5px solid #c8deff;
 }
 
 /*# sourceMappingURL=index.css.map */
