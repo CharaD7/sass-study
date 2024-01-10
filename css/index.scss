@@ -1,31 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
-
-$main-color: #c8deff;
-$bg-image-center: no-repeat center/cover;
-$main-font: "Roboto", sans-serif;
-
-body {
-  background: linear-gradient(#a5aae9cc, #8c9af6) no-repeat;
-}
-
-header {
-  height: 50vh;
-  background: crimson;
-
-  nav {
-    border: 5px solid teal;
-
-    ul {
-      display: flex;
-
-      li {
-        list-style-type: none;
-        padding: 15px;
-        border: 5px solid $main-color;
-      }
-
-    }
-
-  }
-
+.container {
+  background-image: url(../assets/images/scenery.jpg);
+  background-position: right;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
 }
