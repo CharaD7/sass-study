@@ -1,38 +1,19 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+header {
+  height: 50vh;
+  background: skyblue;
 }
 
-.container {
-  background-image: url(../assets/images/scenery.jpg);
-  background-position: right;
-  background-size: cover;
-  background-repeat: no-repeat;
+section {
+  height: 20vh;
+  background: crimson;
+}
+
+article {
+  height: 10vh;
+  background: teal;
+}
+
+footer {
   height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-
-  ul {
-    font-family: sans-serif;
-    margin-bottom: 1.5rem;
-  }
-
-  li {
-    display: inline;
-    list-style: none;
-
-    a {
-      color: white;
-      margin: 20px;
-      text-decoration: none;
-      padding-bottom: 5px;
-    }
-
-    a:hover {
-      border-bottom: 1px solid white;
-    }
-
-  }
+  background: cyan;
 }
