@@ -1,7 +1,5 @@
-header {
-  height: 50vh;
-  background: skyblue;
-}
+@import "components/reset";
+@import "components/header";
 
 section {
   height: 20vh;

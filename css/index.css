@@ -4,32 +4,24 @@
   box-sizing: border-box;
 }
 
-.container {
-  background-image: url(../assets/images/scenery.jpg);
-  background-position: right;
-  background-size: cover;
-  background-repeat: no-repeat;
+header {
+  height: 50vh;
+  background: skyblue;
+}
+
+section {
+  height: 20vh;
+  background: crimson;
+}
+
+article {
+  height: 10vh;
+  background: teal;
+}
+
+footer {
   height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-}
-.container ul {
-  font-family: sans-serif;
-  margin-bottom: 1.5rem;
-}
-.container li {
-  display: inline;
-  list-style: none;
-}
-.container li a {
-  color: white;
-  margin: 20px;
-  text-decoration: none;
-  padding-bottom: 5px;
-}
-.container li a:hover {
-  border-bottom: 1px solid white;
+  background: cyan;
 }
 
 /*# sourceMappingURL=index.css.map */
