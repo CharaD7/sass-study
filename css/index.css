@@ -4,24 +4,14 @@
   box-sizing: border-box;
 }
 
-header {
-  height: 50vh;
-  background: skyblue;
-}
-
-section {
-  height: 20vh;
-  background: crimson;
-}
-
-article {
-  height: 10vh;
-  background: teal;
-}
-
-footer {
-  height: 100vh;
-  background: cyan;
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  font-family: sans-serif;
+  position: fixed;
+  width: 100%;
 }
 
 /*# sourceMappingURL=index.css.map */
