@@ -12,6 +12,22 @@ nav {
   font-family: sans-serif;
   position: fixed;
   width: 100%;
+  background-color: white;
+}
+nav .container {
+  margin-left: 40px;
+}
+nav ul {
+  margin-right: 40px;
+}
+nav ul li {
+  display: inline;
+  list-style: none;
+  margin-left: 30px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: black;
 }
 
 /*# sourceMappingURL=index.css.map */
