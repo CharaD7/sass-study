@@ -1,11 +1,7 @@
 @import "components/reset";
 @import "components/header";
 @import "components/section";
-
-article {
-  height: 10vh;
-  background: teal;
-}
+@import "components/article";
 
 footer {
   height: 100vh;
