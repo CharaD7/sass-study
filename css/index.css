@@ -30,4 +30,26 @@ nav ul li a {
   color: black;
 }
 
+main {
+  background: url(../assets/images/scenery.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+main h1 {
+  font-size: 3rem;
+  color: #fff;
+}
+main p {
+  font-style: normal;
+  max-width: 600px;
+  margin: 10px;
+}
+
 /*# sourceMappingURL=index.css.map */
